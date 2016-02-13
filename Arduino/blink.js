@@ -6,7 +6,7 @@ Cylon.robot({
 
 	connections: {
     	leapmotion: { adaptor: "leapmotion" },
-    	arduino: { adaptor: "firmata", port: "/dev/cu.usbmodem1411" } ///dev/cu.usbmodem1451
+    	arduino: { adaptor: "firmata", port: "/dev/cu.usbmodem1411" } // /dev/cu.usbmodem1411 /dev/cu.usbmodem1451 
  	},
 
   	devices: {

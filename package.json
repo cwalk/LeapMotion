@@ -1,7 +1,7 @@
 {
   "name": "leapmotion",
   "version": "1.0.0",
-  "description": "Generic repo to test applications of Leap Motion, especially using cylon.js to connect with Arduino, Raspberry Pi, and various other interfaces.",
+  "description": "Repo for various projects to use the Leap Motion + Raspberry Pi or Arduino to demo it's potential capabilities in the Parks &amp; Resorts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "cylon": "^1.2.0",
+    "cylon-ble": "^0.10.0",
     "cylon-firmata": "^0.23.0",
-    "cylon-leapmotion": "^0.20.0"
+    "cylon-hue": "^0.7.0",
+    "cylon-leapmotion": "^0.20.0",
+    "cylon-ollie": "^0.9.0",
+    "cylon-sphero": "^0.23.0",
+    "cylon-sphero-ble": "^0.11.0",
+    "node-inspector": "^0.12.5",
+    "prompt": "^0.2.14"
   }
 }
