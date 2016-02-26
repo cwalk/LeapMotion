@@ -1,0 +1,17 @@
+{
+  "name": "cylon-rpi",
+  "version": "0.0.0",
+  "description": "cylonjs project folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clayton Walker",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "cylon": "^1.2.0",
+    "cylon-hue": "^0.7.0",
+    "cylon-leapmotion": "^0.20.0",
+    "cylon-raspi": "^0.18.0"
+  }
+}

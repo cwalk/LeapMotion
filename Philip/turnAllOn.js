@@ -1,5 +1,5 @@
 // To run:
-// $ node disco.js 192.168.0.101 82bf6d045f12856fa06cb642cbff0e
+// $ node array-blink.js
 
 "use strict";
 
@@ -23,25 +23,17 @@ Cylon.robot({
     bulb7: { driver: "hue-light", lightId: 7 }
   },
 
-  randomNumber: function() {
-    return Math.floor(Math.random() * 255);
-  },
-
   work: function(my) {
-    
     for (var d in my.devices) {
-      my.devices[d].turnOn()
-    };
-
-    every((1).second(), function() {
-      
-      for (var d in my.devices) {
-        my.devices[d].rgb(
-          my.randomNumber(),
-          my.randomNumber(),
-          my.randomNumber()
-        );
-      }
-    });
+      my.devices[d].turnOn();
+      my.devices[d].brightness(75);
+    }
+    my.bulb1.rgb(255,0,0); //red
+    my.bulb2.rgb(255,128,0); //orange
+    my.bulb3.rgb(255,255,0); //yellow
+    my.bulb4.rgb(0,255,0); //green
+    my.bulb5.rgb(0,0,255); //blue
+    my.bulb6.rgb(191,0,255); //purple
+    my.bulb7.rgb(255,0,191); //pink
   }
 }).start();
