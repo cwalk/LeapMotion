@@ -1,7 +1,7 @@
 {
   "name": "leapmotion",
   "version": "1.0.0",
-  "description": "Repo for various projects to use the Leap Motion + Raspberry Pi or Arduino to demo it's potential capabilities in the Parks &amp; Resorts.",
+  "description": "Repo for various projects to use the Leap Motion + Raspberry Pi or Arduino to demo it's potential capabilities.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
